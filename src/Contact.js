@@ -4,9 +4,10 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="Contact" id="contact">
-      <h3>Get in touch!</h3>
+      <h3>Get in touch</h3>
       <div className="text-center">
-        <ul className="d-flex justify-content-evenly">
+        <h3 className="email">taliberlin@gmail.com</h3>
+        <ul className="d-flex justify-content-center">
           <li>
             <a
               href="https://www.linkedin.com/in/taliberlin/"
@@ -31,7 +32,6 @@ export default function Contact() {
             </a>
           </li>
         </ul>
-        <h3>taliberlin@gmail.com</h3>
       </div>
     </div>
   );

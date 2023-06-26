@@ -1,9 +1,12 @@
 .About {
   margin: 30px;
+  margin-top: 90px;
 }
 .About h3 {
   font-family: var(--header-font);
+  text-align: center;
 }
 .About p {
   font-family: var(--paragraph-font);
+  margin-right: 50px;
 }

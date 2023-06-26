@@ -3,4 +3,5 @@
 }
 .Projects h3 {
   font-family: var(--header-font);
+  text-align: center;
 }

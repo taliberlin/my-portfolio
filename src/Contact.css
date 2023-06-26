@@ -1,6 +1,23 @@
 .Contact {
   margin: 30px;
+  margin-top: 50px;
 }
 .Contact h3 {
   font-family: var(--header-font);
+}
+.Contact .email {
+  font-family: var(--paragraph-font);
+  font-size: 25px;
+}
+.Contact ul {
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Contact li {
+  margin-left: 20px;
+  margin-right: 20px;
+  background: var(--secondary-color);
+  padding: 10px;
+  border-radius: 20px;
 }

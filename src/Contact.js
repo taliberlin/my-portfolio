@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <h3>Get in touch!</h3>
       <div className="text-center">
         <ul className="d-flex justify-content-evenly">

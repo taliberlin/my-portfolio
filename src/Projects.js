@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="Projects">
+    <div className="Projects" id="projects">
       <h3>Projects</h3>
       <div className="d-flex flex-column">
         <div className="p-1 text-center">

@@ -24,13 +24,13 @@ export default function NavBar() {
               <a className="nav-link active" aria-current="page" href="#">
                 Home
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about">
                 About
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#projects">
                 Projects
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </div>

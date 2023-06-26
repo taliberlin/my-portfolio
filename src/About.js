@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="About">
+    <div className="About" id="about">
       <h3>About</h3>
       <p>
         Obtaining a bachelor's degree in Arts, International Relations (with

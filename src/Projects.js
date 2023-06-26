@@ -4,44 +4,50 @@ export default function Projects() {
   return (
     <div className="Projects">
       <h3>Projects</h3>
-      <div className="d-flex justify-content-evenly">
-        <div className="p-1">
+      <div className="d-flex flex-column">
+        <div className="p-1 text-center">
           <img
             src={require("./weather-app.png")}
             alt="Weather app"
             className="img-fluid"
-            width={300}
+            width={500}
           />
-          <p className="text-center">HTML, CSS, JavaScript, React.js</p>
-          <p className="text-center">
+          <p>HTML, CSS, JavaScript, React.js</p>
+          <p>
             Open app in{" "}
-            <a href="https://meek-cannoli-bc5bd6.netlify.app/">new window</a>
+            <a href="https://meek-cannoli-bc5bd6.netlify.app/" target="_blank">
+              new window
+            </a>
           </p>
         </div>
-        <div className="p-1">
+        <div className="p-1 text-center">
           <img
             src={require("./weather-app.png")}
             alt="Weather app"
             className="img-fluid"
-            width={300}
+            width={500}
           />
-          <p className="text-center">HTML, CSS, JavaScript, React.js</p>
-          <p className="text-center">
+          <p>HTML, CSS, JavaScript, React.js</p>
+          <p>
             Open app in{" "}
-            <a href="https://meek-cannoli-bc5bd6.netlify.app/">new window</a>
+            <a href="https://meek-cannoli-bc5bd6.netlify.app/" target="_blank">
+              new window
+            </a>
           </p>
         </div>
-        <div className="p-1">
+        <div className="p-1 text-center">
           <img
             src={require("./weather-app.png")}
             alt="Weather app"
             className="img-fluid"
-            width={300}
+            width={500}
           />
-          <p className="text-center">HTML, CSS, JavaScript, React.js</p>
-          <p className="text-center">
+          <p>HTML, CSS, JavaScript, React.js</p>
+          <p>
             Open app in{" "}
-            <a href="https://meek-cannoli-bc5bd6.netlify.app/">new window</a>
+            <a href="https://meek-cannoli-bc5bd6.netlify.app/" target="_blank">
+              new window
+            </a>
           </p>
         </div>
       </div>

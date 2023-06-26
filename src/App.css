@@ -1,12 +1,17 @@
 .App {
-  --primary-color: #fafafa;
-  --secondary-color: #e1eeff;
-  --third-color: #c2cfd8;
-  --fourth-color: #543a3a;
-  --header-font: "Ysabeau SC", sans-serif;
-  --paragraph-font: "Nunito Sans", sans-serif;
-  background: var(--primary-color);
+  background: var(--secondary-color);
+  margin: 45px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .App .coded-by {
   margin-bottom: 20px;
+}
+.App .coded-by a {
+  color: #0e6efd;
+  text-decoration: none;
+}
+.App .coded-by a:hover {
+  color: #3b4045;
 }

@@ -1,7 +1,22 @@
 .Projects {
   margin: 30px;
+  background-color: white;
+  border-radius: 12px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.img-description {
+  text-align: center;
 }
 .Projects h3 {
   font-family: var(--header-font);
   text-align: center;
+}
+.Projects p {
+  font-family: var(--paragraph-font);
+  margin: 2px;
+  margin-top: 18px;
+}
+.Projects img {
+  border-radius: 5px;
 }

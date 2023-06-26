@@ -10,7 +10,7 @@ export default function Projects() {
         </div>
         <div className="col-9">
           <div className="d-flex flex-column">
-            <div className="p-1">
+            <div className="p-1 img-description">
               <img
                 src={require("./weather-app.png")}
                 alt="Weather app"
@@ -18,8 +18,8 @@ export default function Projects() {
                 width={500}
               />
               <p>HTML, CSS, JavaScript, React.js</p>
-              <p>
-                Open app in{" "}
+              <p className="view-project">
+                View app in{" "}
                 <a
                   href="https://meek-cannoli-bc5bd6.netlify.app/"
                   target="_blank"

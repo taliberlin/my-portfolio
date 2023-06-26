@@ -1,6 +1,10 @@
 .About {
   margin: 30px;
   margin-top: 90px;
+  background: white;
+  border-radius: 12px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 .About h3 {
   font-family: var(--header-font);

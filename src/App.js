@@ -24,6 +24,7 @@ function App() {
               href="https://github.com/taliberlin/my-portfolio"
               target="_blank"
               rel="noreferrer"
+              title="View source-code on GitHub"
             >
               open-sourced
             </a>

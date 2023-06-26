@@ -7,12 +7,20 @@ export default function Contact() {
       <div className="text-center">
         <ul className="d-flex justify-content-evenly">
           <li>
-            <a href="https://www.linkedin.com/in/taliberlin/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/taliberlin/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/taliberlin" target="_blank">
+            <a
+              href="https://github.com/taliberlin"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i class="fa-brands fa-github"></i>
             </a>
           </li>

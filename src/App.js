@@ -19,7 +19,11 @@ function App() {
         <Contact />
         <div className="text-center">
           🤘🏼 This website was coded by Tali Berlin and is {""}
-          <a href="https://github.com/taliberlin/my-portfolio" target="_blank">
+          <a
+            href="https://github.com/taliberlin/my-portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced
           </a>
         </div>

@@ -15,22 +15,11 @@ export default function Projects() {
           <p>HTML, CSS, JavaScript, React.js</p>
           <p>
             Open app in{" "}
-            <a href="https://meek-cannoli-bc5bd6.netlify.app/" target="_blank">
-              new window
-            </a>
-          </p>
-        </div>
-        <div className="p-1 text-center">
-          <img
-            src={require("./weather-app.png")}
-            alt="Weather app"
-            className="img-fluid"
-            width={500}
-          />
-          <p>HTML, CSS, JavaScript, React.js</p>
-          <p>
-            Open app in{" "}
-            <a href="https://meek-cannoli-bc5bd6.netlify.app/" target="_blank">
+            <a
+              href="https://meek-cannoli-bc5bd6.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               new window
             </a>
           </p>

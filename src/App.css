@@ -1,0 +1,9 @@
+.App {
+  --primary-color: #fafafa;
+  --secondary-color: #e1eeff;
+  --third-color: #c2cfd8;
+  --fourth-color: #543a3a;
+  --header-font: "Ysabeau SC", sans-serif;
+  --paragraph-font: "Nunito Sans", sans-serif;
+  background: var(--primary-color);
+}

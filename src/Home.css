@@ -1,0 +1,18 @@
+.Home {
+  font-family: var(--header-font);
+}
+.Home .intro {
+  padding-top: 90px;
+  padding-left: 40px;
+}
+.Home .intro h1 {
+  font-size: 70px;
+}
+.Home .intro h2 {
+  font-size: 33px;
+}
+.Home img {
+  margin-top: 20px;
+  position: relative;
+  right: 20px;
+}

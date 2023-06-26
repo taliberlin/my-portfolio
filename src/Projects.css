@@ -1,0 +1,6 @@
+.Projects {
+  margin: 30px;
+}
+.Projects h3 {
+  font-family: var(--header-font);
+}

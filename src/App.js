@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <footer>
         <Contact />
-        <div className="text-center">
+        <div className="text-center coded-by">
           🤘🏼 This website was coded by Tali Berlin and is {""}
           <a
             href="https://github.com/taliberlin/my-portfolio"

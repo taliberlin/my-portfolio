@@ -1,0 +1,9 @@
+.About {
+  margin: 30px;
+}
+.About h3 {
+  font-family: var(--header-font);
+}
+.About p {
+  font-family: var(--paragraph-font);
+}

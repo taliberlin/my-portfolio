@@ -1,0 +1,6 @@
+.Contact {
+  margin: 30px;
+}
+.Contact h3 {
+  font-family: var(--header-font);
+}

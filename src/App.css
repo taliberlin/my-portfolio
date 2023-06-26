@@ -7,3 +7,6 @@
   --paragraph-font: "Nunito Sans", sans-serif;
   background: var(--primary-color);
 }
+.App .coded-by {
+  margin-bottom: 20px;
+}

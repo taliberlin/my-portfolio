@@ -17,6 +17,12 @@ function App() {
       <Projects />
       <footer>
         <Contact />
+        <div className="text-center">
+          🤘🏼 This website was coded by Tali Berlin and is {""}
+          <a href="https://github.com/taliberlin/my-portfolio" target="_blank">
+            open-sourced
+          </a>
+        </div>
       </footer>
     </div>
   );

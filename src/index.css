@@ -5,5 +5,5 @@ body {
   --fourth-color: #543a3a;
   --header-font: "Ysabeau SC", sans-serif;
   --paragraph-font: "Nunito Sans", sans-serif;
-  background: var(--primary-color);
+  background: white;
 }

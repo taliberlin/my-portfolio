@@ -35,6 +35,14 @@ export default function Contact() {
               <i class="fa-solid fa-envelope"></i>
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.shecodes.io/graduates/56921-tali-berlin"
+              title="View Tali Berlin's SheCodes profile"
+            >
+              <i class="fa-solid fa-laptop-code"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

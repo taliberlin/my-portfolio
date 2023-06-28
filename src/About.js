@@ -11,20 +11,21 @@ export default function About() {
         <div className="col-9">
           {" "}
           <p>
-            Obtaining a bachelor's degree in Arts, International Relations (with
-            distinction) from the University of British Columbia was a
-            gratifying journey, but unfulfilling in terms of passion. My heart
-            was called to the film industry, so I pursued that with full force.
-            Quickly, I realized that while this new journey was satisying my
-            creative desires, I was left craving more. I wanted to utilize the
+            Obtaining a bachelor's degree in International Relations from the
+            University of British Columbia was a gratifying achievement, but
+            unfulfilling. My heart was called to the film industry, so I pursued
+            that with full force. Quickly, I realized that while this new
+            journey was satisying my creative desires, I was left craving more.
+            Although I still love creating for TV/film, I wanted to utilize the
             full scope of my interests and abilities, and I wanted to keep
             learning. That's where software development came in. I happened upon
             an online coding workshop and decided to give it a try. To my
-            surprise, I was able to not only make use of both my logic and
-            creativity (through problem-solving), but I also enjoyed the process
-            itself! Now I take great pleasure in figuring out the most efficient
-            way to develop responsive web applications. Check out my projects,
-            let's get in touch!
+            surprise, I found that software development allowed me to channel
+            both my logical thinking and my creative flair, as I delved into the
+            art of problem-solving. Now, I take great pleasure in figuring out
+            the most efficient way to develop responsive web applications using
+            VS Code, React.js and Bootstrap. Check out my projects, let's get in
+            touch!
           </p>
         </div>
       </div>

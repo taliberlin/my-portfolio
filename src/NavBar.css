@@ -1,3 +1,6 @@
 .NavBar {
   font-family: var(--header-font);
 }
+.NavBar a {
+  font-size: large;
+}

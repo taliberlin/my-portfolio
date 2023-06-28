@@ -7,10 +7,11 @@
 }
 .img-description {
   text-align: center;
+  margin: 20px;
 }
 .Projects h3 {
   font-family: var(--header-font);
-  text-align: center;
+  margin-left: 88px;
 }
 .Projects p {
   font-family: var(--paragraph-font);
@@ -19,4 +20,13 @@
 }
 .Projects img {
   border-radius: 5px;
+}
+.Projects .view-project {
+  margin-top: 5px;
+}
+.Projects .view-project a {
+  text-decoration: none;
+}
+.Projects .view-project a:hover {
+  color: #212529;
 }

@@ -7,7 +7,7 @@ export default function Home() {
       <div className="row">
         <div className="col-8 intro">
           <h1>Hey, I'm Tali Berlin!</h1>
-          <h2>Front-end web developer based in Vancouver, BC</h2>
+          <h2>Junior front-end web developer based in Vancouver, BC</h2>
         </div>
         <div className="col-4">
           <img

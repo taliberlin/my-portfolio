@@ -6,9 +6,9 @@ export default function NavBar() {
     <div className="NavBar">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <button className="navbar-brand" href="#">
             Tali Berlin
-          </a>
+          </button>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,18 +22,18 @@ export default function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav d-flex">
-              <a className="nav-link" aria-current="page" href="#">
+              <button className="nav-link" href="#">
                 Home
-              </a>
-              <a className="nav-link" href="#about">
+              </button>
+              <button className="nav-link" href="#about">
                 About
-              </a>
-              <a className="nav-link" href="#projects">
+              </button>
+              <button className="nav-link" href="#projects">
                 Projects
-              </a>
-              <a className="nav-link" href="#contact">
+              </button>
+              <button className="nav-link" href="#contact">
                 Contact
-              </a>
+              </button>
             </div>
           </div>
         </div>

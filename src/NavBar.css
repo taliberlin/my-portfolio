@@ -1,6 +1,11 @@
 .NavBar {
   font-family: var(--header-font);
 }
-.NavBar a {
+.NavBar button {
+  font-size: large;
+}
+.NavBar .navbar-brand {
+  border: none;
+  background: transparent;
   font-size: large;
 }

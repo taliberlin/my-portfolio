@@ -3,9 +3,11 @@
 }
 .NavBar button {
   font-size: large;
+  margin: 8px;
 }
 .NavBar .navbar-brand {
   border: none;
   background: transparent;
   font-size: large;
+  margin: 18px;
 }

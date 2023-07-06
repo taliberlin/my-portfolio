@@ -2,11 +2,20 @@ import React from "react";
 import "./NavBar.css";
 
 export default function NavBar() {
+  function scrollToSection(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
   return (
-    <div className="NavBar">
+    <div className="NavBar" id="navbar">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <button className="navbar-brand" href="#">
+          <button
+            className="navbar-brand"
+            onClick={() => scrollToSection("navbar")}
+          >
             Tali Berlin
           </button>
           <button
@@ -22,16 +31,28 @@ export default function NavBar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav d-flex">
-              <button className="nav-link" href="#">
+              <button
+                className="nav-link"
+                onClick={() => scrollToSection("home")}
+              >
                 Home
               </button>
-              <button className="nav-link" href="#about">
+              <button
+                className="nav-link"
+                onClick={() => scrollToSection("about")}
+              >
                 About
               </button>
-              <button className="nav-link" href="#projects">
+              <button
+                className="nav-link"
+                onClick={() => scrollToSection("projects")}
+              >
                 Projects
               </button>
-              <button className="nav-link" href="#contact">
+              <button
+                className="nav-link"
+                onClick={() => scrollToSection("contact")}
+              >
                 Contact
               </button>
             </div>

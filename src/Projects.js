@@ -29,56 +29,16 @@ export default function Projects() {
             </div>
             <div className="p-1 img-description">
               <img
-                src={require("./weather-app.png")}
+                src={require("./dictionary.png")}
                 alt="Weather app"
                 className="img-fluid"
-                width={400}
+                width={217}
               />
               <p>HTML, CSS, JavaScript, React.js</p>
               <p className="view-project">
                 View app in{" "}
                 <a
-                  href="https://meek-cannoli-bc5bd6.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  new window
-                </a>
-              </p>
-            </div>
-          </div>
-          <div className="d-flex justify-content-center">
-            <div className="p-1 img-description">
-              <img
-                src={require("./weather-app.png")}
-                alt="Weather app"
-                className="img-fluid"
-                width={400}
-              />
-              <p>HTML, CSS, JavaScript, React.js</p>
-              <p className="view-project">
-                View app in{" "}
-                <a
-                  href="https://meek-cannoli-bc5bd6.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  new window
-                </a>
-              </p>
-            </div>
-            <div className="p-1 img-description">
-              <img
-                src={require("./weather-app.png")}
-                alt="Weather app"
-                className="img-fluid"
-                width={400}
-              />
-              <p>HTML, CSS, JavaScript, React.js</p>
-              <p className="view-project">
-                View app in{" "}
-                <a
-                  href="https://meek-cannoli-bc5bd6.netlify.app/"
+                  href="https://loquacious-lamington-bcab0d.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

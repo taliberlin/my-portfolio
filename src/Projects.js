@@ -11,11 +11,11 @@ export default function Projects() {
             <div className="p-1 img-description">
               <img
                 src={require("./weather-app.png")}
-                alt="Weather app"
+                alt="Weather App"
                 className="img-fluid"
                 width={400}
               />
-              <p>HTML, CSS, JavaScript, React.js</p>
+              <p>Bootstrap, JavaScript, React, AJAX</p>
               <p className="view-project">
                 View app in{" "}
                 <a
@@ -26,15 +26,25 @@ export default function Projects() {
                   new window
                 </a>
               </p>
+              <p className="view-project">
+                <a
+                  href="https://github.com/taliberlin/weather-app-two"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source-code:
+                </a>{" "}
+                Weather App
+              </p>
             </div>
             <div className="p-1 img-description">
               <img
                 src={require("./dictionary.png")}
-                alt="Weather app"
+                alt="Dictionary"
                 className="img-fluid"
                 width={217}
               />
-              <p>HTML, CSS, JavaScript, React.js</p>
+              <p>Bootstrap, JavaScript, React, AJAX</p>
               <p className="view-project">
                 View app in{" "}
                 <a
@@ -44,6 +54,16 @@ export default function Projects() {
                 >
                   new window
                 </a>
+              </p>
+              <p className="view-project">
+                <a
+                  href="https://github.com/taliberlin/dictionary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source-code:
+                </a>{" "}
+                Dictionary
               </p>
             </div>
           </div>

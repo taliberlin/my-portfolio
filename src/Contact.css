@@ -26,3 +26,43 @@
 .Contact li :hover {
   color: #b4d1f7;
 }
+
+@media (max-width: 950px) {
+  .Contact {
+    margin-top: 45px;
+  }
+  .Contact ul {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 650px) {
+  .Contact .email {
+    font-size: 20px;
+    padding: 0;
+    left: 0;
+  }
+  .Contact ul {
+    padding: 0;
+  }
+  .Contact li {
+    font-size: 15px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  @media (max-width: 300px) {
+    .Contact .email {
+      font-size: 15px;
+      bottom: 10px;
+    }
+    .Contact ul {
+      margin: 0;
+    }
+    .Contact li {
+      font-size: 12px;
+      margin: 0 4px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

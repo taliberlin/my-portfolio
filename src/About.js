@@ -5,10 +5,10 @@ export default function About() {
   return (
     <div className="About" id="about">
       <div className="row">
-        <div className="col-3">
+        <div className="col-sm-3">
           <h3>About</h3>
         </div>
-        <div className="col-9">
+        <div className="col-sm-9">
           {" "}
           <p>
             Obtaining a bachelor's degree in International Relations from the

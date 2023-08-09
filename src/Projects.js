@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="mt-3">
         <h3>Projects</h3>
         <div>
-          <div className="d-flex justify-content-center">
+          <div className="d-sm-flex justify-content-center">
             <div className="p-1 img-description">
               <img
                 src={require("./weather-app.png")}
@@ -37,7 +37,7 @@ export default function Projects() {
                 Weather App
               </p>
             </div>
-            <div className="p-1 img-description">
+            <div className="dictionary p-1 img-description">
               <img
                 src={require("./dictionary.png")}
                 alt="Dictionary"

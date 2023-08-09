@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <div className="Home" id="home">
       <div className="row">
-        <div className="col-8 intro">
+        <div className="col-sm-8 intro">
           <h1>Hey, I'm Tali Berlin!</h1>
           <h2>Junior front-end web developer based in Vancouver, BC</h2>
         </div>
-        <div className="col-4">
+        <div className="col-sm-4">
           <img
             src={require("./profilePic.png")}
             width="350"

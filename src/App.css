@@ -16,3 +16,24 @@
 .App .coded-by a:hover {
   color: #212529;
 }
+@media (max-width: 650px) {
+  .App {
+    margin: 20px;
+  }
+  .App .coded-by {
+    margin-bottom: 15px;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .App {
+    margin: 10px;
+  }
+  .App .coded-by {
+    margin-bottom: 10px;
+    font-size: 11px;
+    padding: 0;
+  }
+}

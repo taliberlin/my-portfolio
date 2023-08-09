@@ -16,3 +16,72 @@
   position: relative;
   right: 10px;
 }
+
+@media (max-width: 950px) {
+  .Home .intro {
+    padding-top: 35px;
+    padding-left: 40px;
+  }
+  .Home .intro h1 {
+    font-size: 70px;
+  }
+  .Home .intro h2 {
+    font-size: 30px;
+  }
+  .Home img {
+    margin-top: 35px;
+    position: relative;
+    right: 28px;
+  }
+}
+@media (max-width: 650px) {
+  .Home .intro {
+    padding: 13px;
+    position: relative;
+    top: 273px;
+    text-align: center;
+  }
+  .Home .intro h1 {
+    font-size: 39px;
+  }
+  .Home .intro h2 {
+    font-size: 19px;
+  }
+  .Home img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 70%;
+    position: relative;
+    bottom: 170px;
+    right: 0;
+  }
+  @media (max-width: 550px) {
+    .Home .intro {
+      padding: 13px;
+      position: relative;
+      top: 280px;
+      text-align: center;
+    }
+    .Home img {
+      width: 60%;
+      bottom: 150px;
+    }
+  }
+  @media (max-width: 300px) {
+    .Home .intro {
+      padding: 14px;
+      top: 200px;
+    }
+    .Home .intro h1 {
+      font-size: 36px;
+    }
+    .Home .intro h2 {
+      font-size: 17px;
+    }
+    .Home img {
+      width: 70%;
+      bottom: 180px;
+    }
+  }
+}

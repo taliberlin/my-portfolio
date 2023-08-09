@@ -14,3 +14,45 @@
   font-family: var(--paragraph-font);
   margin-right: 50px;
 }
+
+@media (max-width: 950px) {
+  .About {
+    margin-top: 45px;
+  }
+}
+@media (max-width: 550px) {
+  .About {
+    margin-top: 50px !important;
+  }
+}
+@media (max-width: 650px) {
+  .About {
+    margin: 10px;
+    margin-top: 40px;
+    padding: 25px;
+  }
+  .About h3 {
+    margin-bottom: 19px;
+  }
+  .About p {
+    text-align: center;
+    font-size: 15px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 300px) {
+  .About {
+    margin: 0px;
+    margin-top: 15px;
+    padding: 13px;
+    padding-bottom: 17px;
+  }
+  .About h3 {
+    margin-bottom: 13px;
+    font-size: 21px;
+  }
+  .About p {
+    font-size: 12px;
+  }
+}

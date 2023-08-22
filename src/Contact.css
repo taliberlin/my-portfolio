@@ -26,6 +26,11 @@
 .Contact li :hover {
   color: #b4d1f7;
 }
+.Contact li .resume {
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 18px;
+}
 
 @media (max-width: 950px) {
   .Contact {
@@ -47,22 +52,30 @@
   .Contact li {
     font-size: 15px;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
   }
-  @media (max-width: 300px) {
-    .Contact .email {
-      font-size: 15px;
-      bottom: 10px;
-    }
-    .Contact ul {
-      margin: 0;
-    }
-    .Contact li {
-      font-size: 12px;
-      margin: 0 4px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
+  .Contact li .resume {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 300px) {
+  .Contact .email {
+    font-size: 15px;
+    bottom: 10px;
+  }
+  .Contact ul {
+    margin: 0;
+  }
+  .Contact li {
+    font-size: 12px;
+    margin: 0 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .Contact li .resume {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 11px;
   }
 }

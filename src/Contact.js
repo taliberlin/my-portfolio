@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "./Berlin-Resume.pdf";
 import "./Contact.css";
 
 export default function Contact() {
@@ -37,10 +38,12 @@ export default function Contact() {
           </li>
           <li>
             <a
-              href="https://www.shecodes.io/graduates/56921-tali-berlin"
-              title="View Tali Berlin's SheCodes profile"
+              href={resume}
+              download={true}
+              className="resume"
+              title="View Tali Berlin's resume"
             >
-              <i class="fa-solid fa-laptop-code"></i>
+              <i class="fa-solid fa-file"></i>
             </a>
           </li>
         </ul>
